@@ -1,24 +1,3 @@
-/*****************************************************************************
-* Copyright (c) Future Technology Devices International 2014
-* propriety of Future Technology devices International.
-*
-* Software License Agreement
-*
-* This code is provided as an example only and is not guaranteed by FTDI. 
-* FTDI accept no responsibility for any issues resulting from its use. 
-* The developer of the final application incorporating any parts of this 
-* sample project is responsible for ensuring its safe and correct operation 
-* and for any consequences resulting from its use.
-*****************************************************************************/
-/**
-* @file                           ReadMe.txt
-* @brief                          Contains information regarding the release, version significance and testing done.
-								  Tested platform version: Arduino 1.0.4 and later
-* @version                        1.2.0
-* @date                           2014/04/28
-*
-*/
-
 Objective:
 ------------
 This document captures version significance, folder structure, testing information etc of FTDI specific graphics controllers library and respective examples.
@@ -82,12 +61,12 @@ Supported platforms:
 ---------------------
  - VM800P35 - FTDI 3.4" Plus board.
  - VM800P43_50 - FTDI 4.3" and 5.0" Plus board.
- - ADAM_4DLCD_FT843 – The 4DLCD_FT843 board can used with almost all Arduino boards that have ICSP pins.
- - BREAKOUTBOARD_4DLCD_FT843 – The 4DLCD_FT843 breakout board can be used with almost all Arduino boards that have ICSP pins.  This platform does not have SD card slot.
+ - ADAM_4DLCD_FT843 â€“ The 4DLCD_FT843 board can used with almost all Arduino boards that have ICSP pins.
+ - BREAKOUTBOARD_4DLCD_FT843 â€“ The 4DLCD_FT843 breakout board can be used with almost all Arduino boards that have ICSP pins.  This platform does not have SD card slot.
  - VM800B43_50 - This board can be used with almost all Arduino boards.  This platform does not have SD card slot.
- - VM800B35 - FTDI 3.5" Basic board – This board can be used with almost all Arduino boards. This platform does not have SD card slot.
+ - VM800B35 - FTDI 3.5" Basic board â€“ This board can be used with almost all Arduino boards. This platform does not have SD card slot.
  - VM800B43_50 - FTDI 4.3" and 5" Plus boards. This platform does not have SD card slot.
-- VM801B43 - FTDI 4.3" Basic board with FT801  – This board can be used with almost all Arduino boards.  This platform does not have SD card slot.
+- VM801B43 - FTDI 4.3" Basic board with FT801  â€“ This board can be used with almost all Arduino boards.  This platform does not have SD card slot.
  - VM801P43_50 - FTDI 4.3" and 5" plus board with FT801.
 
 
@@ -112,7 +91,7 @@ Folder Structure:
  - Root level (\FTDI) contains include file wrt platforms, libraries, hardware and examples. 
  - Libraries (\FTDI\libraries) contain source for SD card, RTC, FT800 implementation, FT801 implementation etc. FT_GC is the base class for FT800Impl and FT801Impl.
  - Hardware (\FTDI\hardware) contains hardware specific macros/instructions/registers etc
- - Each of the platforms shall contain respective examples (\FTDI\examples). Examples are split into (a)Basic (b)Intermediate (c)Advanced (d)Demos. NOTE – Sample application based on HAL has been splitted up and they were divided into a/b/c and demo applications are divided into c/d.
+ - Each of the platforms shall contain respective examples (\FTDI\examples). Examples are split into (a)Basic (b)Intermediate (c)Advanced (d)Demos. NOTE â€“ Sample application based on HAL has been splitted up and they were divided into a/b/c and demo applications are divided into c/d.
 
 
 Testing done:
